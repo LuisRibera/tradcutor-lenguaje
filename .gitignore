@@ -1,0 +1,25 @@
+# Cachés de Python
+__pycache__/
+*.pyc
+*.pyo
+.tmp_pyc/
+
+# Entornos virtuales
+.venv/
+venv/
+
+# Datasets y modelos generados (se regeneran con los scripts)
+data/*.csv
+data/*.jsonl
+models/*.joblib
+models/*.json
+models/*.csv
+
+# Conservar las carpetas vacías
+!data/.gitkeep
+!models/.gitkeep
+
+# Respaldos de datos y modelos (datos personales / archivos pesados)
+data/_respaldo_datos_viejos/
+data/*.bak
+models/_respaldo_modelos_viejos/
